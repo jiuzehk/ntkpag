@@ -1,0 +1,3 @@
+install:
+  - FILE="-Dfile=ntkpag-1.3.aar"
+  - mvn install:install-file $FILE -DgroupId=com.poly -DartifactId=ntkpag -Dversion=1.3 -Dpackaging=aar -DpomFile=pom.xml
